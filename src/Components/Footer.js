@@ -46,7 +46,7 @@ const Footer = () => {
 
             <div class="copyright footer-child">
                 <p>Copyright Binar 2022</p>
-                <a href="#home">
+                <a href="#hero-section">
                     <img src={logo} alt="Company-Logo" />
                 </a>
             </div>

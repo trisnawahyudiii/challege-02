@@ -16,13 +16,13 @@ import star from '../img/Star.png';
 
 const Testimonial = () => {
     return (
-        <Container fluid="md">
+        <div id="testimonial">
             <Container className="text-center">
                 {/* for header */}
                 <h2>Testimonial</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
             </Container>
-            <Container>
+            <div>
                 {/* for Carousel */}
                 {/* dibawah ini swiper container */}
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper" centeredSlides={true} loop={true} slidesPerView="auto">
@@ -115,8 +115,8 @@ const Testimonial = () => {
                         </div>
                     </SwiperSlide>
                 </Swiper>
-            </Container>
-        </Container>
+            </div>
+        </div>
     );
 };
 

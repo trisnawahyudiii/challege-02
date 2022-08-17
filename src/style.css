@@ -111,6 +111,11 @@ p {
 }
 
 /* testimonial carousel  */
+
+.swiper-wrapper {
+    margin-bottom: 5rem;
+}
+
 .swiper-slide {
     display: flex;
     align-items: center;
@@ -127,6 +132,57 @@ p {
 
 .rating-stars {
     margin-bottom: 1rem;
+}
+
+/* carousel buttons */
+/* <span class="next"></span> */
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: url('./img/icons/left arrow.svg');
+    font-size: 24px;
+    line-height: 0;
+    transform: translateX(-1px);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    z-index: 10;
+    top: auto !important;
+    bottom: 0 !important;
+    border: 1px solid #c4c4c4;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-prev {
+    left: auto;
+    right: 50% !important;
+    margin: 0 1rem;
+}
+
+.swiper-button-next {
+    left: 50% !important;
+    right: auto;
+    margin: 0 1rem;
+    transform: rotate(180deg);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #5cb85f;
+    border: none;
+    transition: all 0.5s ease-out;
+}
+
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+    content: url('./img/icons/left\ arrow\ white.svg');
 }
 
 @media screen and (max-width: 768px) {
