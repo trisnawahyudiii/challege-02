@@ -43,8 +43,8 @@ p {
     justify-content: center;
 }
 
-
-#hero-section, .navbar {
+#hero-section,
+.navbar {
     background-color: #f1f3ff;
 }
 
@@ -110,6 +110,25 @@ p {
     color: #000;
 }
 
+/* testimonial carousel  */
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f1f3ff;
+
+    padding: 3rem;
+    margin: 0 16px;
+
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.rating-stars {
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 768px) {
     .offcanvas {
         max-width: 50%;
@@ -122,8 +141,23 @@ p {
     .hero-text {
         padding: 1rem;
     }
+
+    .swiper-slide {
+        flex-direction: column;
+    }
+
+    .carousel-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 !important;
+    }
+
+    .carousel-image {
+        margin: 1rem;
+    }
 }
 
 @media screen and (min-width: 769px) {
-    
 }
