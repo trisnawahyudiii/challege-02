@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Container from 'react-bootstrap/esm/Container';
 
 const Banner = () => {
   return (
-    <div>Banner</div>
+    <Container fluid="md">
+      <div className="cta-banner d-flex flex-column align-items-center p-5 my-5">
+                <h1>Sewa Mobil di Bali Sekarang</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="btn btn-success">Mulai Sewa Mobil</button>
+            </div>
+    </Container>
   )
 }
 

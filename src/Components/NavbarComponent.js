@@ -9,18 +9,18 @@ import logo from '../img/logo.png';
 function NavbarComponent() {
     return (
         <>
-            <Navbar key="md" bg="light" expand="md" className="mb-3 sticky-top">
+            <Navbar key="md"expand="md" className="sticky-top">
                 <Container fluid="md">
-                    <Navbar.Brand href="#">
+                    <Navbar.Brand href="#hero-section">
                         <Image src={logo} />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
                     <Navbar.Offcanvas id={`offcanvasNavbar-expand-md`} aria-labelledby={`offcanvasNavbarLabel-expand-md`} placement="end">
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>Offcanvas</Offcanvas.Title>
+                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>BCR</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            <Nav className="justify-content-end align-items-center flex-grow-1 pe-3">
+                            <Nav className="navbar-link justify-content-end flex-grow-1 pe-3">
                                 <Nav.Link href="#our-services">Our Serices</Nav.Link>
                                 <Nav.Link href="#why-us">Why Us</Nav.Link>
                                 <Nav.Link href="#testimonial">Testimonial</Nav.Link>

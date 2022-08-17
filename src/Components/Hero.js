@@ -10,14 +10,16 @@ const Hero = () => {
         <div id="hero-section">
             <Row>
                 {/* ini buat text */}
-                <Col md={6} xs={12} className="align-items-center p-5">
+                <Col md={6} xs={12} className="hero-text d-flex flex-column justify-content-center">
                     <h1>Sewa & Rental Mobil Terbaik di Kawasan Bali</h1>
                     <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-                    <button class="btn btn-success">Mulai Sewa Mobil</button>
+                    <div>
+                        <button class="btn btn-success">Mulai Sewa Mobil</button>
+                    </div>
                 </Col>
                 {/* ini buat image */}
-                <Col md={6} xs={12}>
-                    <Image src={carImage} fluid className="hero-ills"/>
+                <Col md={6} xs={12} className="d-flex justify-content-end">
+                    <Image src={carImage} fluid className="hero-ills" />
                 </Col>
             </Row>
         </div>

@@ -1,4 +1,129 @@
 :root {
     scroll-behavior: smooth;
-    scroll-padding-top: 54px;
+    scroll-padding-top: 68px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.btn-success {
+    background-color: #5cb85f;
+    border: none;
+}
+
+.navbar-link {
+    align-items: center;
+    justify-content: center;
+}
+
+
+#hero-section, .navbar {
+    background-color: #f1f3ff;
+}
+
+.hero-text {
+    justify-content: center;
+    padding: 0 1rem 0 7rem;
+}
+
+.why-us-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-us-text p {
+    margin: 0;
+}
+
+.why-us-text img {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+}
+
+.mycard {
+    /* margin-top: 1rem; */
+    margin: 1rem 0rem;
+}
+
+.card-body {
+    border: solid 1px #d0d0d0;
+    border-radius: 8px;
+    margin: 0 1rem;
+    padding: 1rem;
+    height: 100%;
+}
+
+.cta-banner {
+    text-align: center;
+    color: #fff;
+    background-color: #0d28a6;
+    border-radius: 13px;
+}
+
+.footer {
+    background-color: #f1f3ff;
+}
+
+.footer-child {
+    margin: 1rem 0;
+}
+
+.sosmed-icon {
+    margin-right: 16px;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .offcanvas {
+        max-width: 50%;
+    }
+
+    .navbar-link {
+        align-items: flex-start;
+    }
+
+    .hero-text {
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    
 }

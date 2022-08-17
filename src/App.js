@@ -1,17 +1,16 @@
 import React from 'react';
 
-
 import NavbarComponent from './Components/NavbarComponent';
 import Hero from './Components/Hero';
 import OurServices from './Components/OurServices';
 import WhyUs from './Components/WhyUs';
 import Banner from './Components/Banner';
-import Testimonial from './Components/Testimonial'
+import Testimonial from './Components/Testimonial';
 import Faq from './Components/Faq';
 import Footer from './Components/Footer';
 
 // styles
-import './style.css'
+import './style.css';
 
 const App = () => {
     return (
@@ -20,8 +19,8 @@ const App = () => {
             <Hero />
             <OurServices />
             <WhyUs />
-            <Banner />
             <Testimonial />
+            <Banner />
             <Faq />
             <Footer />
         </div>
