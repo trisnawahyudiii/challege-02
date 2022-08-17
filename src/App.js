@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Navbar, Footer, Hero, OurServices, WhyUs, Banner, Testimonial, Faq } from './Components';
+
 
 import NavbarComponent from './Components/NavbarComponent';
 import Hero from './Components/Hero';
@@ -10,10 +10,12 @@ import Testimonial from './Components/Testimonial'
 import Faq from './Components/Faq';
 import Footer from './Components/Footer';
 
+// styles
+import './style.css'
+
 const App = () => {
     return (
         <div>
-            {/* any code here */}
             <NavbarComponent />
             <Hero />
             <OurServices />

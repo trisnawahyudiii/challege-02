@@ -9,8 +9,8 @@ import logo from '../img/logo.png';
 function NavbarComponent() {
     return (
         <>
-            <Navbar key="md" bg="light" expand="md" className="mb-3">
-                <Container fluid>
+            <Navbar key="md" bg="light" expand="md" className="mb-3 sticky-top">
+                <Container fluid="md">
                     <Navbar.Brand href="#">
                         <Image src={logo} />
                     </Navbar.Brand>
