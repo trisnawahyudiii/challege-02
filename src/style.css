@@ -97,6 +97,9 @@ p {
     margin: 1rem 0;
 }
 
+.footer-child ul {
+    padding: 0;
+}
 .sosmed-icon {
     margin-right: 16px;
 }
@@ -107,13 +110,17 @@ p {
 
 .navigation li a {
     text-decoration: none;
-    color: #000;
+    color: #212529;
+    font-size: 14px;
 }
 
+.navigation li a:hover {
+    color: rgba(0, 0, 0, 0.9);
+}
 /* testimonial carousel  */
 
 .swiper-wrapper {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .swiper-slide {
@@ -183,6 +190,12 @@ p {
 .swiper-button-next:hover::after,
 .swiper-button-prev:hover::after {
     content: url('./img/icons/left\ arrow\ white.svg');
+}
+
+.accordion-item {
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border-color: 1px solid #D4D4D4;
 }
 
 @media screen and (max-width: 768px) {
