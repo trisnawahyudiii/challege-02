@@ -49,7 +49,7 @@ p {
 }
 
 #hero-section {
-    margin-top: 68px;
+    margin-top: 60px;
 }
 
 .hero-text {
@@ -199,10 +199,22 @@ p {
 .accordion-item {
     margin-bottom: 16px;
     border-radius: 4px;
-    border-color: 1px solid #D4D4D4;
+    border: 1px solid #D4D4D4;
+}
+
+.accordion-item:not(:first-of-type) {
+    border: 1px solid #D4D4D4;
 }
 
 @media screen and (max-width: 768px) {
+    .why-us--title {
+        text-align: center;
+    }
+    
+    .faq-title {
+        text-align: center;
+    }
+
     .offcanvas {
         max-width: 50%;
     }

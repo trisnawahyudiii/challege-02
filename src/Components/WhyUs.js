@@ -13,7 +13,7 @@ import icon_professional from '../img/icons/icon_professional.png';
 const WhyUs = () => {
     return (
         <Container fluid="md" id="why-us" className="my-5">
-            <div>
+            <div className="why-us--title">
                 <h2>Why Us?</h2>
                 <p>Mengapa harus pilih Binar Car Rental?</p>
             </div>

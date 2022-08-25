@@ -6,7 +6,7 @@ const Faq = () => {
         <Container fluid="md" id="faq-section">
             <Row>
                 {/* text */}
-                <Col md={6} xs={12}>
+                <Col md={6} xs={12} className="faq-title">
                     <h2>Frequently Asked Question</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </Col>
