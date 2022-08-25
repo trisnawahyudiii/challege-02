@@ -1,3 +1,7 @@
+# Binar Car Rental Project Description
+
+This project was created to fulfill the assessment of chapter-2 which contains a responsive landing page built with the ReactJS framework combined with React-Bootstrap and SwiperJS.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
