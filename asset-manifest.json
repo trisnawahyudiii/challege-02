@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/challege-02/static/css/main.9c8a2d96.css",
+    "main.js": "/challege-02/static/js/main.333309bc.js",
+    "static/media/img_car.png": "/challege-02/static/media/img_car.158866ba0ae809a6a3c4.png",
+    "static/media/img_service.png": "/challege-02/static/media/img_service.2cb72177a584511be3b8.png",
+    "static/media/testimoni_foto2.png": "/challege-02/static/media/testimoni_foto2.247162d235698a9fa8f8.png",
+    "index.html": "/challege-02/index.html",
+    "static/media/left arrow white.svg": "/challege-02/static/media/left arrow white.c583cdfe0a26986f6bb9.svg",
+    "static/media/left arrow.svg": "/challege-02/static/media/left arrow.e539eb21240bb50b04b1.svg",
+    "main.9c8a2d96.css.map": "/challege-02/static/css/main.9c8a2d96.css.map",
+    "main.333309bc.js.map": "/challege-02/static/js/main.333309bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c8a2d96.css",
+    "static/js/main.333309bc.js"
+  ]
+}
