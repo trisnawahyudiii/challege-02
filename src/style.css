@@ -48,6 +48,10 @@ p {
     background-color: #f1f3ff;
 }
 
+#hero-section {
+    margin-top: 68px;
+}
+
 .hero-text {
     justify-content: center;
     padding: 0 1rem 0 7rem;
@@ -228,5 +232,3 @@ p {
     }
 }
 
-@media screen and (min-width: 769px) {
-}

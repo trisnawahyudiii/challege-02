@@ -9,7 +9,7 @@ import logo from '../img/logo.png';
 function NavbarComponent() {
     return (
         <>
-            <Navbar key="md"expand="md" className="sticky-top">
+            <Navbar key="md"expand="md" className="fixed-top">
                 <Container fluid="md">
                     <Navbar.Brand href="#hero-section">
                         <Image src={logo} />

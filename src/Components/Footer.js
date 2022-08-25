@@ -9,7 +9,7 @@ import twitch from '../img/icons/icon_mail.png';
 
 const Footer = () => {
     return (
-        <div class="container-md d-flex flex-column flex-lg-row justify-content-between mt-5 mb-3 footer-container">
+        <div class="container-md d-flex flex-column flex-md-row justify-content-between mt-5 mb-3 footer-container">
             <div class="address footer-child">
                 <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
                 <p>binarcarrental@gmail.com</p>
