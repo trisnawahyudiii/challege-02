@@ -199,18 +199,18 @@ p {
 .accordion-item {
     margin-bottom: 16px;
     border-radius: 4px;
-    border: 1px solid #D4D4D4;
+    border: 1px solid #d4d4d4;
 }
 
 .accordion-item:not(:first-of-type) {
-    border: 1px solid #D4D4D4;
+    border: 1px solid #d4d4d4;
 }
 
 @media screen and (max-width: 768px) {
     .why-us--title {
         text-align: center;
     }
-    
+
     .faq-title {
         text-align: center;
     }
@@ -231,6 +231,10 @@ p {
         flex-direction: column;
     }
 
+    #testimonial {
+        padding: 0 16px;    
+    } 
+
     .carousel-text {
         display: flex;
         flex-direction: column;
@@ -242,5 +246,6 @@ p {
     .carousel-image {
         margin: 1rem;
     }
-}
 
+    
+}

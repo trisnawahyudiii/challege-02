@@ -15,108 +15,109 @@ import userfoto2 from '../img/testimoni_foto2.png';
 import star from '../img/Star.png';
 
 const Testimonial = () => {
+
     return (
-        <div id="testimonial">
-            <Container className="text-center">
-                {/* for header */}
-                <h2>Testimonial</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-            </Container>
-            <div>
-                {/* for Carousel */}
-                {/* dibawah ini swiper container */}
-                <Swiper navigation={true} modules={[Navigation]} className="mySwiper" centeredSlides={true} loop={true} slidesPerView="auto">
-                    <SwiperSlide>
-                        <div class="carousel-image">
-                            <img src={userfoto1} alt="testimonial user image" />
-                        </div>
-                        <div class="carousel-text ms-5">
-                            <div class="rating-stars">
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
+            <div id="testimonial">
+                <Container className="text-center">
+                    {/* for header */}
+                    <h2>Testimonial</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                </Container>
+                <div>
+                    {/* for Carousel */}
+                    {/* dibawah ini swiper container */}
+                    <Swiper navigation={true} modules={[Navigation]} className="mySwiper" centeredSlides={true} loop={true} slidesPerView="auto">
+                        <SwiperSlide>
+                            <div class="carousel-image">
+                                <img src={userfoto1} alt="testimonial user image" />
                             </div>
-                            <div class="carousel-desc">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
-                                    veritatis ut!
-                                </p>
-                                <h3 class="username">Trisna Wahyudi 20, Bali</h3>
+                            <div class="carousel-text ms-5">
+                                <div class="rating-stars">
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                </div>
+                                <div class="carousel-desc">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
+                                        veritatis ut!
+                                    </p>
+                                    <h3 class="username">Trisna Wahyudi 20, Bali</h3>
+                                </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div class="carousel-image">
-                            <img src={userfoto2} alt="testimonial user image" />
-                        </div>
-                        <div class="carousel-text ms-5">
-                            <div class="rating-stars">
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div class="carousel-image">
+                                <img src={userfoto2} alt="testimonial user image" />
                             </div>
-                            <div class="carousel-desc">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
-                                    veritatis ut!
-                                </p>
-                                <h3 class="username">Yulia Dewi 20, Bali</h3>
+                            <div class="carousel-text ms-5">
+                                <div class="rating-stars">
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                </div>
+                                <div class="carousel-desc">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
+                                        veritatis ut!
+                                    </p>
+                                    <h3 class="username">Yulia Dewi 20, Bali</h3>
+                                </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div class="carousel-image">
-                            <img src={userfoto1} alt="testimonial user image" />
-                        </div>
-                        <div class="carousel-text ms-5">
-                            <div class="rating-stars">
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div class="carousel-image">
+                                <img src={userfoto1} alt="testimonial user image" />
                             </div>
-                            <div class="carousel-desc">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
-                                    veritatis ut!
-                                </p>
-                                <h3 class="username">Trisna Wahyudi 20, Bali</h3>
+                            <div class="carousel-text ms-5">
+                                <div class="rating-stars">
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                </div>
+                                <div class="carousel-desc">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
+                                        veritatis ut!
+                                    </p>
+                                    <h3 class="username">Trisna Wahyudi 20, Bali</h3>
+                                </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div class="carousel-image">
-                            <img src={userfoto2} alt="testimonial user image" />
-                        </div>
-                        <div class="carousel-text ms-5">
-                            <div class="rating-stars">
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
-                                <img src={star} alt="Rating stars" />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div class="carousel-image">
+                                <img src={userfoto2} alt="testimonial user image" />
                             </div>
-                            <div class="carousel-desc">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
-                                    veritatis ut!
-                                </p>
-                                <h3 class="username">Yulia Dewi 20, Bali</h3>
+                            <div class="carousel-text ms-5">
+                                <div class="rating-stars">
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                    <img src={star} alt="Rating stars" />
+                                </div>
+                                <div class="carousel-desc">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
+                                        veritatis ut!
+                                    </p>
+                                    <h3 class="username">Yulia Dewi 20, Bali</h3>
+                                </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                </Swiper>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
             </div>
-        </div>
     );
 };
 
