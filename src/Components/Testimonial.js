@@ -29,7 +29,7 @@ const Testimonial = () => {
                     <Swiper navigation={true} modules={[Navigation]} className="mySwiper" centeredSlides={true} loop={true} slidesPerView="auto">
                         <SwiperSlide>
                             <div class="carousel-image">
-                                <img src={userfoto1} alt="testimonial user image" />
+                                <img src={userfoto1} alt="testimonial user" />
                             </div>
                             <div class="carousel-text ms-5">
                                 <div class="rating-stars">
@@ -51,7 +51,7 @@ const Testimonial = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div class="carousel-image">
-                                <img src={userfoto2} alt="testimonial user image" />
+                                <img src={userfoto2} alt="testimonial user" />
                             </div>
                             <div class="carousel-text ms-5">
                                 <div class="rating-stars">
@@ -73,7 +73,7 @@ const Testimonial = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div class="carousel-image">
-                                <img src={userfoto1} alt="testimonial user image" />
+                                <img src={userfoto1} alt="testimonial user" />
                             </div>
                             <div class="carousel-text ms-5">
                                 <div class="rating-stars">
@@ -95,7 +95,7 @@ const Testimonial = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div class="carousel-image">
-                                <img src={userfoto2} alt="testimonial user image" />
+                                <img src={userfoto2} alt="testimonial user" />
                             </div>
                             <div class="carousel-text ms-5">
                                 <div class="rating-stars">
